@@ -1,16 +1,5 @@
-# Ignore Virtual Environment
-venv/
-env/
-
-# Ignore Compiled Python Files
-_pycache_/
-*.pyc
-
-# Ignore Environment Variables (PROTECT YOUR API KEY!)
+node_modules/
 .env
-
-# Ignore the Vector Database (It regenerates anyway and is too big)
-chroma_db/
-
-# Ignore Mac System files
 .DS_Store
+dist/
+build/
